@@ -3,10 +3,7 @@
 @tailwind utilities;
 
 
-video {
-    width: 100%;
-    height: auto;
-}
+
 
 .cursive {
     font-family: "Cedarville Cursive", cursive;
@@ -17,11 +14,12 @@ video {
         rgba(255, 255, 255, 0.4),
         rgba(255, 255, 255, 0.4)
       ),
-      linear-gradient(90.01deg, #e59cff 0.01%, #ba9cff 50.01%, #9cb2ff 100%);
+      linear-gradient(90.01deg, #749ffa 0.01%, #f79cff 50.01%, #fd987f 100%);
     background-blend-mode: normal, screen;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    
   }
   .Welcome-box {
     isolation: isolate;

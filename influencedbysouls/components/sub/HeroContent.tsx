@@ -10,28 +10,27 @@ export const HeroContent = () => {
     <motion.div
     initial="hidden"
     animate="visible"
-    className='flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]'
+    className='flex flex-row items-center justify-center px-20 w-full z-[20]'
     >
         <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
         <motion.div
         variants={slideInFromTop}
         className='Welcome-box py-[8px] px-[7px] border border-blue-300 opacity-[0.9]'
         >
-        <SparklesIcon className='text-[white] mr-[10px] h-5 w-5'/>
-        <h1 className='Welcome-text text-[13px]'>Welcome Soul</h1>
+        <a href=''><h1 className='Welcome-text text-[13px]'>Welcome Soul</h1></a>
         </motion.div>
        
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-20 pt-36 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-red-400">
               {" "}
-              the best{" "}
+              The best{" "}
             </span>
-            project exprience
+            Connection Exprience
           </span>
         </motion.div>
 
@@ -39,8 +38,7 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          Whether you are an artist, entrepreneur, traveller or simply someone with an ambition for new connections and experiences, this is the perfect space for you.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
