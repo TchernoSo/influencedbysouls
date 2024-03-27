@@ -14,19 +14,20 @@ const Navbar = () => {
       {/* Navigation Links */}
       <ul className="flex flex-grow justify-center mt-1">
         <li>
-          <a href="#" className="text-white hover:text-gray-300 ml-0">Products</a>
+          <a href="#products" className="text-white hover:text-gray-300 ml-0">Products</a>
         </li>
         <li>
-          <a href="#" className="text-white hover:text-gray-300 ml-8">About</a>
+          <a href="#about" className="text-white hover:text-gray-300 ml-8">About</a>
         </li>
       </ul>
       
       {/* Social Media Icons */}
       <div className="flex items-center pr-6">
-          <a href="#" className="mr-4">
+          <a href="https://www.instagram.com/influencedbysouls?igsh=bmR5c3p1NHEyMmI%3D&utm_source=qr
+" className="mr-4">
             <img src="/instagram.png" alt="instagram" className="h-6 w-6" /> {/* Adjust the height and width as needed */}
           </a>
-          <a href="#">
+          <a href="https://t.me/Influencedbysouls">
             <img src="/telegram.png" alt="telegram" className="h-6 w-6" /> {/* Adjust the height and width as needed */}
           </a>
         </div>
