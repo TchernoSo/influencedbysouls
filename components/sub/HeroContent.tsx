@@ -38,7 +38,7 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px] max-sm:text-sm"
         >
-Connections are our priority. <br />From day one, we've been dedicated to fostering meaningful interactions and providing support. Our platform offers an open-minded space where everyone feels safe to be themselves and connect on a deeper level.</motion.p>
+Connections are our priority. <br />From day one, we ve been dedicated to fostering meaningful interactions and providing support. Our platform offers an open-minded space where everyone feels safe to be themselves and connect on a deeper level.</motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
