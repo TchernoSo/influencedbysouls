@@ -14,12 +14,12 @@ const Products = () => {
         <Productcards
           src="/bOOK.png"
           title="Get your Book"
-          description="Organize your ideas here, be consistent with your passions, your progress will inspire countless souls worldwide. I belive in you."
+          description="Organize your thoughts, align them with your passions, and let your progress become an inspiration for countless souls around the globe."
         />
         <Productcards
           src="/Snapshot_4.png"
-          title="Get your appointment"
-          description="We are all students and teachers in the school of life. Let's share our lessons and learn from each other's wisdom. Team up with me!"
+          title="Get your appointment with Us"
+          description="Life is a mystery for everyone, and we don't have to go through it alone. Together, we can exchange wisdom, evolve, and make wiser choices for our future."
         />
         <Productcards
           src="/snapshot_6.png"

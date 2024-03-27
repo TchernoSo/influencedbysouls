@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] py-4 backdrop-blur-md">
+    <nav className=" shadow-lg shadow-[#f87171]/50 bg-[#14050017] py-4 backdrop-blur-md sticky top-0 z-50 ">
     <div className="container mx-auto flex justify-between items-center">
       {/* Logo */}
       <div className="flex items-center">
@@ -12,12 +12,12 @@ const Navbar = () => {
       </div>
       
       {/* Navigation Links */}
-      <ul className="flex flex-grow justify-center mt-1">
+      <ul className="flex flex-grow justify-center mt-1 pr-60 max-sm:pr-8">
         <li>
-          <a href="#products" className="text-white hover:text-gray-300 ml-0">Products</a>
+          <a href="#products" className="text-white hover:text-gray-300 ml-0 cursor-pointer">Products</a>
         </li>
         <li>
-          <a href="#about" className="text-white hover:text-gray-300 ml-8">About</a>
+          <a href="#about" className="text-white hover:text-gray-300 ml-8 cursor-pointer">About</a>
         </li>
       </ul>
       
