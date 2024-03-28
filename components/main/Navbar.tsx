@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="container mx-auto flex justify-between items-center">
       {/* Logo */}
       <div className="flex items-center">
-      <Image src="/Symbol.png" alt="Logo" width={75} height={40} className=" mr-4" />
+      <Image src="./Symbol.png" alt="Logo" width={75} height={40} className=" mr-4" />
         <h1 className="text-white text-lg font-bold hidden md:block">InfluencedbySouls</h1>
       </div>
       
@@ -24,11 +24,11 @@ const Navbar = () => {
       {/* Social Media Icons */}
       <div className="flex items-center pr-6">
       <a href="https://www.instagram.com/influencedbysouls?igsh=bmR5c3p1NHEyMmI%3D&utm_source=qr" className="mr-4">
-  <Image src="/instagram.png" alt="instagram" width={24} height={24} />
+  <Image src="./instagram.png" alt="instagram" width={24} height={24} />
 </a>
 
 <a href="https://t.me/Influencedbysouls">
-  <Image src="/telegram.png" alt="telegram" width={24} height={24} />
+  <Image src="./telegram.png" alt="telegram" width={24} height={24} />
 </a>
         </div>
     </div>

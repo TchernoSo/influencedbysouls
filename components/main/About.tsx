@@ -12,7 +12,7 @@ export const About = () => {
       <div className="flex flex-col md:flex-row items-center md:justify-between">
         <div className="md:w-1/2 md:mr-4 mb-4 md:mb-0" id='about'>
           <video autoPlay loop muted className="h-auto w-full rounded-lg">
-      <source src="/HeretoConnectBigSize.mp4" type="video/mp4" />
+      <source src="./HeretoConnectBigSize.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
         </div>
